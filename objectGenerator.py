@@ -29,7 +29,7 @@ def generateHumanObject():
     data['human'].append(object) 
 
 
-for i in range(100):
+for i in range(1000):
     generateHumanObject()
 
 
