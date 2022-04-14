@@ -32,6 +32,7 @@ def generateHumanObject():
 for i in range(100):
     generateHumanObject()
 
+
 dataDict = open("data.json", "w")
 json.dump(data, dataDict, indent = 6)
 dataDict.close()
